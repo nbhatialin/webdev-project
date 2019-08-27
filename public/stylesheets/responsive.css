@@ -1,0 +1,135 @@
+@media screen and (max-width: 700px) {
+	h2 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	/*pick meal component*/
+	.meal {
+		width: 95%;
+		left: 2.5%;
+		right: 2.5%;
+	}
+
+	.meal-pic {
+		width: 90%;
+		padding: 5%;
+		display: inline-block;
+	}
+
+	.meal-ingredients{
+		width: 90%;
+		padding: 5%;
+		display: inline-block;
+	}
+
+	.react-autosuggest__container {
+		width: 240px;
+	}
+
+	.react-autosuggest__input {
+		width: 200px;
+	}
+
+	.react-autosuggest__suggestions-container--open {
+		width: 240px;
+	}
+
+	#pan {
+		width: 80%;
+		display: inline-block;
+	}
+
+	#pan img{
+		max-width: 100%;
+	}
+
+
+	/* Celebrity display component */
+	.container {
+		justify-content: space-between;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.textcenter {
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	}
+
+	.lcontainer {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	}
+
+	.rcontainer {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+
+	.lattribute-data {
+		flex-grow: 1;
+		order: 1;
+	}
+
+
+	.sideattribute {
+		flex: none;
+		font-size: 14px;
+	}
+	/* Home component */
+
+
+	.celebrityphoto {
+		flex-grow: 2;
+		order: 2;
+		max-width: 50%;
+	}
+
+	.rattribute-data {
+		flex-grow: 1;
+		order: 3;
+	}
+
+	.score {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #3498db;
+		padding: 5px;
+		border-bottom: 1px solid #bdc3c7;
+		border-right: 1px solid #bdc3c7;
+	}
+
+	#clicker {
+		padding-top: 15px;
+	}
+
+	#clicker button {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.gobuttoncenter {
+		margin-top: 5%;
+		margin-bottom: 15%;
+		display: block;
+		margin: auto;
+	    width: 40%;
+	    padding: 14px;
+	}
+
+
+}

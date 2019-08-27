@@ -1,0 +1,344 @@
+body {
+	margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.meal-container {
+	width: 80%;
+	left: 20%;
+}
+
+.react-autosuggest__container {
+  position: relative;
+  width: 440px;
+  display: block;
+  margin: 0 auto;
+}
+
+.react-autosuggest__input {
+  width: 400px;
+  height: 30px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 440px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.suggestion-container {
+	width: 100%;
+	display: inline-block;
+}
+
+.suggestion-half{
+	width: 100%;
+	float: left;
+	display: inline-block;
+	padding: 5px;
+}
+
+.suggestion-half p{
+	font-size: 12px;
+}
+
+.suggestion-half img{
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.meal-container {
+	position: relative;
+	width: 70%;
+	left: 15%;
+	right: 15%;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.mealButton{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.chosenMeal{
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px;
+	border-radius: 6px;
+	border: 1px solid #bdc3c7;
+	font-weight: 700;
+}
+
+.cookbtn{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.cookbtn:disabled,
+.cookbtn[disabled]{
+	background-color: #3498db;
+	opacity: 0.6;
+}
+
+#slider {
+	display: inline-block;
+	padding: 20px;
+}
+
+.portionslabel {
+	font-weight: normal;
+  	font-size: 20px;
+  	line-height: 2.3;
+}
+
+.portionamount {
+  	margin: 30px;
+  	border: none;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border-radius: 4px;
+  padding: 10px 15px;
+  color: #34495E;
+  background-color: #ECF0F1;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+          transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+}
+
+.meal {
+	position: relative;
+	width: 70%;
+	left: 15%;
+	right: 15%;
+	text-align: center;
+}
+
+.meal h2{
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.meal-pic{
+	padding: 10px;
+	width: 45%;
+	float: left;
+}
+
+.meal-info {
+	width: 90%;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.meal-pic img{
+	width: 100%;
+}
+
+.meal-ingredients{
+	padding: 10px;
+	float: left;
+	width: 45%;
+}
+
+.meal-ingredients h5 {
+	margin-top: 0;
+}
+
+.meal-container h2{
+	margin-bottom: 3%;
+}
+
+#pan-btn {
+	border: none;
+	background: none;
+}
+
+#pan {
+	max-width: 100%;
+	padding: 50px;
+	display: block;
+}
+
+#celebbackground {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+  	opacity: .4;
+  	-webkit-filter: blur(10px);
+}
+
+#homebackground {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+  	opacity: .4;
+  	-webkit-filter: blur(10px);
+}
+
+.gobuttoncenter {
+	margin-top: 5%;
+	margin-bottom: 15%;
+	display: block;
+	margin: auto;
+    width: 40%;
+    padding: 14px;
+}
+
+.startbuttoncenter {
+	margin-top: 5%;
+	margin-bottom: 15%;
+	display: block;
+	margin: auto;
+    width: 60%;
+    height: 30%;
+    padding: 14px;
+}
+
+
+.textcenter {
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.textcenter_first {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.textcenter_italic {
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	font-style: italic;
+}
+
+.textcenter_bold {
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.container {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 20%;
+	margin-right: 20%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.lcontainer {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.rcontainer {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.lattribute-data {
+	flex-grow: 1;
+	order: 1;
+}
+
+.sideattribute {
+	flex: none;
+}
+
+.celebrityphoto {
+	flex-grow: 2;
+	order: 2;
+	max-width: 50%;
+}
+
+.rattribute-data {
+	flex-grow: 1;
+	order: 3;
+}
+
+.score {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #3498db;
+	padding: 5px;
+	border-bottom: 1px solid #bdc3c7;
+	border-right: 1px solid #bdc3c7;
+}
+
+#clicker {
+	padding-top: 15px;
+}
+
+#clicker button {
+	padding-left: 5px;
+	padding-right: 5px;
+}
